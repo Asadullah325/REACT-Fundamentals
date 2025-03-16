@@ -1,8 +1,11 @@
 function New() {
+  const name = "John Doe";
+  const age = 25;
+
   return (
     <>
-      <h1>New Component</h1>
-      <p>This is a new component.</p>
+      <h1>{name}</h1>
+      <p>{age}</p>
     </>
   );
 }
