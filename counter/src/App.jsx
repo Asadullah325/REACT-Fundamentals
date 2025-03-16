@@ -4,11 +4,11 @@ const App = () => {
   const [counter, setcounter] = useState(15);
 
   const addValue = () => {
-    setcounter(counter + 1);
+    setcounter((prev) => prev + 1);
   };
 
   const decValue = () => {
-    setcounter(counter - 1);
+    setcounter((prev) => prev - 1);
     if (counter <= 0) {
       setcounter(0);
     }
