@@ -1,8 +1,11 @@
+import Mycode from "./Mycode";
 
 
 function App() {
   return (
-    <h1>Basic React Project</h1>
+    <>
+    <Mycode />
+    </>
   );
 }
 
